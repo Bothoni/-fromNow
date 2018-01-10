@@ -1,0 +1,39 @@
+... ...
+
+@2018 01 09 v4.1.2.1_build(20180109)
+
+	发布路径：
+		 https://10.160.93.250/svn/ButelnetConnect/product/2.产品/3.Connect/0.ButelLiveSDK/2017_iOS/内部发布目录/v4.1.2.1_build(20180109) 
+	变更：
+	1. 互动请求协议新增字段VERSION，做版本匹配控制
+		新协议：CMD:Call,NAME:bigbag,DESC:XXX,UID:1009021459,VERSION:1
+			字段VERSION为功能大版本号
+				0：不支持48K双声道，音频包2合1发送
+				1：支持48K双声道，音频包不再2合1
+	2、音频发包由原来的2合1包，改为用音频单包发送。
+	3、音频编码格式支持AAC_48K_2格式。
+
+	版本信息：
+	   SDK core 分支     ：V4.main_2IN1 SVN 21312
+	   
+	   
+	各位好：
+	Android SDK v4.1.2.1_build(20180109)已发布：
+	svn地址：    https://10.160.93.250/svn/ButelnetConnect/product/2.产品/3.Connect/0.ButelLiveSDK/2017_Android/内部发布目录/v4.1.2.1_build(20180109) 
+
+	变更说明
+	- 兰斐要求，呼叫导播台请求增加字段：,VERSION:1
+	- 音频发包由原来的2合1包，改为用音频单包发送。
+	- 音频编码格式支持AAC_48K_2格式。
+	- 开发网修改ip地址（张永涛要求）
+	
+	
+@2018 01 09 v4.1.2.1_build(20180109)
+	发布路径：
+		 https://10.160.93.250/svn/ButelnetConnect/product/2.产品/3.Connect/0.ButelLiveSDK/2017_iOS/内部发布目录/v4.1.2.2_build(20180109) 
+	变更：
+	1. 修正上版发起互动4881的问题
+	2.提升版本号至4.1.2.2
+
+	版本信息：
+	   SDK core 分支     ：V4.main_2IN1 SVN 21326
