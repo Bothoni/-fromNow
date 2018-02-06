@@ -1,0 +1,6 @@
+##### windows api #####
+GetBestInterfaceEx
+
+return not found
+
+##### 
