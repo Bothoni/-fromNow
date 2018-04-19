@@ -70,6 +70,9 @@ ftp：   ftp://210.51.168.117:21111/
 网关ip：  175.102.21.38/175.102.8.232
 ftp： ftp://175.102.21.38:21111/
 
+#####
+直播观看地址
+http://vmswebapi.butel.com/index.html#/fglogin
 
 #####
 netsh wlan set hostednetwork mode=allow ssid=dellblue key=password
